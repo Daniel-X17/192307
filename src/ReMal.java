@@ -4,31 +4,31 @@ public class ReMal {
     public static void main(String[] args) throws Exception {
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Nombre vendedor:");
+        System.out.println("Ingresar nombre del cajero:");
         String a = s.nextLine();
 
-        System.out.println("Cantidad de productos vendidos:");
+        System.out.println("Cuantos productos se vendieron:");
         int p = s.nextInt();
 
-        System.out.println("Ingrese valor producto 1:");
+        System.out.println("Ingresar el valor del producto 1:");
         double x1 = s.nextDouble();
 
-        System.out.println("Ingrese valor producto 2:");
+        System.out.println("Ingresar el valor del producto 2:");
         double x2 = s.nextDouble();
 
-        System.out.println("Ingrese valor producto 3:");
+        System.out.println("Ingresar el valor del producto 3:");
         double x3 = s.nextDouble();
 
-        System.out.println("Ingrese valor producto 4:");
+        System.out.println("Ingresar el valor del producto 4:");
         double x4 = s.nextDouble();
 
-        System.out.println("Ingrese valor producto 5:");
+        System.out.println("Ingresar el valor del producto 5:");
         double x5 = s.nextDouble();
 
-        System.out.println("Ingrese valor producto 6:");
+        System.out.println("Ingresar el valor del producto 6:");
         double x6 = s.nextDouble();
 
-        System.out.println("Ingrese valor producto 7:");
+        System.out.println("Ingresar el valor del producto 7:");
         double x7 = s.nextDouble();
 
         double s1 = 0;
@@ -78,9 +78,9 @@ public class ReMal {
         double tt = x1 + x2 + x3 + x4 + x5 + x6 + x7;
         double ss = (double) (s1 + 1000000);
 
-        System.out.println("Vendedor: " + a);
-        System.out.println("Total ventas: " + (int) tt);
-        System.out.println("Comisiones: " + (int) s1);
-        System.out.println("Salario total: " + (int) ss);
+        System.out.println("Personal cajero: " + a);
+        System.out.println("Numero total de ventas: " + (int) tt);
+        System.out.println("Las Comisiones: " + (int) s1);
+        System.out.println("Salario total del cajero: " + (int) ss);
     }
 }
